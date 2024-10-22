@@ -12,5 +12,11 @@ let accesa = false;
 
         if (accesa === false) {
             myLamp.src = './img/yellow_lamp.png';
+            myButton.innerText = 'Spegni';
+            accesa = true;
+        } else {
+            myLamp.src = './img/white_lamp.png';
+            myButton.innerText = 'Accendi'; 
+            accesa = false;
         }
     }
